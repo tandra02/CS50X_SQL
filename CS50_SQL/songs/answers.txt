@@ -1,0 +1,4 @@
+SELECT name, AVG(danceability) AS avg_danceability, AVG(energy) AS avg_energy, AVG(valence) AS avg_valence
+FROM songs
+GROUP BY name
+LIMIT 100;
